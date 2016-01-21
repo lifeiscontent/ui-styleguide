@@ -1,0 +1,32 @@
+.Reveal-checkbox {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+  clip: rect(1px, 1px, 1px, 1px);
+}
+
+.Reveal-item--display-none {
+  display: none;
+}
+
+.Reveal-checkbox:focus ~ .Reveal-content .Reveal-label {
+  outline: thin dotted;
+  // WebKit
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+
+.Reveal-checkbox:checked ~ .Reveal-content .Reveal-item--when-checked-display-none {
+  display: none;
+}
+
+.Reveal-checkbox:checked ~ .Reveal-content .Reveal-item--when-checked-display-inline {
+  display: inline;
+}
+
+.Reveal-checkbox:checked ~ .Reveal-content .Reveal-item--when-checked-display-inline-block {
+  display: inline-block;
+}
+
+.Reveal-checkbox:checked ~ .Reveal-content .Reveal-item--when-checked-display-block {
+  display: block;
+}

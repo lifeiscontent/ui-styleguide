@@ -1,0 +1,9 @@
+.u-float--right {
+  float: right !important;
+}
+
+@media screen and (min-width: 768px) {
+  .u-sm-float--right {
+    float: right !important;
+  }
+}

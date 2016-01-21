@@ -1,0 +1,655 @@
+
+
+// Github Style Markdown CSS
+
+.Content--markdown {
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  color: #333;
+  font-family: "Helvetica Neue", Helvetica, "Segoe UI", Arial, freesans, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 16px;
+  line-height: 1.6;
+  word-wrap: break-word;
+}
+
+.Content--markdown a {
+  background-color: transparent;
+}
+
+.Content--markdown a:active,
+.Content--markdown a:hover {
+  outline: 0;
+}
+
+.Content--markdown strong {
+  font-weight: bold;
+}
+
+.Content--markdown h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+.Content--markdown img {
+  border: 0;
+}
+
+.Content--markdown hr {
+  box-sizing: content-box;
+  height: 0;
+}
+
+.Content--markdown pre {
+  overflow: auto;
+}
+
+.Content--markdown code,
+.Content--markdown kbd,
+.Content--markdown pre {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+.Content--markdown input {
+  color: inherit;
+  font: inherit;
+  margin: 0;
+}
+
+.Content--markdown html input[disabled] {
+  cursor: default;
+}
+
+.Content--markdown input {
+  line-height: normal;
+}
+
+.Content--markdown input[type="checkbox"] {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+.Content--markdown table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.Content--markdown td,
+.Content--markdown th {
+  padding: 0;
+}
+
+.Content--markdown * {
+  box-sizing: border-box;
+}
+
+.Content--markdown input {
+  font: 13px / 1.4 Helvetica, arial, nimbussansl, liberationsans, freesans, clean, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.Content--markdown a {
+  color: #4078c0;
+  text-decoration: none;
+}
+
+.Content--markdown a:hover,
+.Content--markdown a:active {
+  text-decoration: underline;
+}
+
+.Content--markdown hr {
+  height: 0;
+  margin: 15px 0;
+  overflow: hidden;
+  background: transparent;
+  border: 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.Content--markdown hr:before {
+  display: table;
+  content: "";
+}
+
+.Content--markdown hr:after {
+  display: table;
+  clear: both;
+  content: "";
+}
+
+.Content--markdown h1,
+.Content--markdown h2,
+.Content--markdown h3,
+.Content--markdown h4,
+.Content--markdown h5,
+.Content--markdown h6 {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  line-height: 1.1;
+}
+
+.Content--markdown h1 {
+  font-size: 30px;
+}
+
+.Content--markdown h2 {
+  font-size: 21px;
+}
+
+.Content--markdown h3 {
+  font-size: 16px;
+}
+
+.Content--markdown h4 {
+  font-size: 14px;
+}
+
+.Content--markdown h5 {
+  font-size: 12px;
+}
+
+.Content--markdown h6 {
+  font-size: 11px;
+}
+
+.Content--markdown blockquote {
+  margin: 0;
+}
+
+.Content--markdown ul,
+.Content--markdown ol {
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.Content--markdown ol ol,
+.Content--markdown ul ol {
+  list-style-type: lower-roman;
+}
+
+.Content--markdown ul ul ol,
+.Content--markdown ul ol ol,
+.Content--markdown ol ul ol,
+.Content--markdown ol ol ol {
+  list-style-type: lower-alpha;
+}
+
+.Content--markdown dd {
+  margin-left: 0;
+}
+
+.Content--markdown code {
+  font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  font-size: 12px;
+}
+
+.Content--markdown pre {
+  margin-top: 0;
+  margin-bottom: 0;
+  font: 12px Consolas, "Liberation Mono", Menlo, Courier, monospace;
+}
+
+.Content--markdown .select::-ms-expand {
+  opacity: 0;
+}
+
+.Content--markdown .octicon {
+  font: normal normal normal 16px/1 octicons-link;
+  display: inline-block;
+  text-decoration: none;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.Content--markdown .octicon-link:before {
+  content: '\f05c';
+}
+
+.Content--markdown:before {
+  display: table;
+  content: "";
+}
+
+.Content--markdown:after {
+  display: table;
+  clear: both;
+  content: "";
+}
+
+.Content--markdown>*:first-child {
+  margin-top: 0 !important;
+}
+
+.Content--markdown>*:last-child {
+  margin-bottom: 0 !important;
+}
+
+.Content--markdown a:not([href]) {
+  color: inherit;
+  text-decoration: none;
+}
+
+.Content--markdown .anchor {
+  display: inline-block;
+  padding-right: 2px;
+  margin-left: -18px;
+}
+
+.Content--markdown .anchor:focus {
+  outline: none;
+}
+
+.Content--markdown h1,
+.Content--markdown h2,
+.Content--markdown h3,
+.Content--markdown h4,
+.Content--markdown h5,
+.Content--markdown h6 {
+  margin-top: 1em;
+  margin-bottom: 16px;
+  font-weight: bold;
+  line-height: 1.4;
+}
+
+.Content--markdown h1 .octicon-link,
+.Content--markdown h2 .octicon-link,
+.Content--markdown h3 .octicon-link,
+.Content--markdown h4 .octicon-link,
+.Content--markdown h5 .octicon-link,
+.Content--markdown h6 .octicon-link {
+  color: #000;
+  vertical-align: middle;
+  visibility: hidden;
+}
+
+.Content--markdown h1:hover .anchor,
+.Content--markdown h2:hover .anchor,
+.Content--markdown h3:hover .anchor,
+.Content--markdown h4:hover .anchor,
+.Content--markdown h5:hover .anchor,
+.Content--markdown h6:hover .anchor {
+  text-decoration: none;
+}
+
+.Content--markdown h1:hover .anchor .octicon-link,
+.Content--markdown h2:hover .anchor .octicon-link,
+.Content--markdown h3:hover .anchor .octicon-link,
+.Content--markdown h4:hover .anchor .octicon-link,
+.Content--markdown h5:hover .anchor .octicon-link,
+.Content--markdown h6:hover .anchor .octicon-link {
+  visibility: visible;
+}
+
+.Content--markdown h1 {
+  padding-bottom: 0.3em;
+  font-size: 2.25em;
+  line-height: 1.2;
+  border-bottom: 1px solid #eee;
+}
+
+.Content--markdown h1 .anchor {
+  line-height: 1;
+}
+
+.Content--markdown h2 {
+  padding-bottom: 0.3em;
+  font-size: 1.75em;
+  line-height: 1.225;
+  border-bottom: 1px solid #eee;
+}
+
+.Content--markdown h2 .anchor {
+  line-height: 1;
+}
+
+.Content--markdown h3 {
+  font-size: 1.5em;
+  line-height: 1.43;
+}
+
+.Content--markdown h3 .anchor {
+  line-height: 1.2;
+}
+
+.Content--markdown h4 {
+  font-size: 1.25em;
+}
+
+.Content--markdown h4 .anchor {
+  line-height: 1.2;
+}
+
+.Content--markdown h5 {
+  font-size: 1em;
+}
+
+.Content--markdown h5 .anchor {
+  line-height: 1.1;
+}
+
+.Content--markdown h6 {
+  font-size: 1em;
+  color: #777;
+}
+
+.Content--markdown h6 .anchor {
+  line-height: 1.1;
+}
+
+.Content--markdown p,
+.Content--markdown blockquote,
+.Content--markdown ul,
+.Content--markdown ol,
+.Content--markdown dl,
+.Content--markdown table,
+.Content--markdown pre {
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+
+.Content--markdown hr {
+  height: 4px;
+  padding: 0;
+  margin: 16px 0;
+  background-color: #e7e7e7;
+  border: 0 none;
+}
+
+.Content--markdown ul,
+.Content--markdown ol {
+  padding-left: 2em;
+}
+
+.Content--markdown ul ul,
+.Content--markdown ul ol,
+.Content--markdown ol ol,
+.Content--markdown ol ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.Content--markdown li>p {
+  margin-top: 16px;
+}
+
+.Content--markdown dl {
+  padding: 0;
+}
+
+.Content--markdown dl dt {
+  padding: 0;
+  margin-top: 16px;
+  font-size: 1em;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.Content--markdown dl dd {
+  padding: 0 16px;
+  margin-bottom: 16px;
+}
+
+.Content--markdown blockquote {
+  padding: 0 15px;
+  color: #777;
+  border-left: 4px solid #ddd;
+}
+
+.Content--markdown blockquote>:first-child {
+  margin-top: 0;
+}
+
+.Content--markdown blockquote>:last-child {
+  margin-bottom: 0;
+}
+
+.Content--markdown table {
+  display: block;
+  width: 100%;
+  overflow: auto;
+  word-break: normal;
+  word-break: keep-all;
+}
+
+.Content--markdown table th {
+  font-weight: bold;
+}
+
+.Content--markdown table th,
+.Content--markdown table td {
+  padding: 6px 13px;
+  border: 1px solid #ddd;
+}
+
+.Content--markdown table tr {
+  background-color: #fff;
+  border-top: 1px solid #ccc;
+}
+
+.Content--markdown table tr:nth-child(2n) {
+  background-color: #f8f8f8;
+}
+
+.Content--markdown img {
+  max-width: 100%;
+  box-sizing: content-box;
+  background-color: #fff;
+}
+
+.Content--markdown code {
+  padding: 0;
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+  margin: 0;
+  font-size: 85%;
+  background-color: rgba(0,0,0,0.04);
+  border-radius: 3px;
+}
+
+.Content--markdown code:before,
+.Content--markdown code:after {
+  letter-spacing: -0.2em;
+  content: "\00a0";
+}
+
+.Content--markdown pre>code {
+  padding: 0;
+  margin: 0;
+  font-size: 100%;
+  word-break: normal;
+  white-space: pre;
+  background: transparent;
+  border: 0;
+}
+
+.Content--markdown .highlight {
+  margin-bottom: 16px;
+}
+
+.Content--markdown .highlight pre,
+.Content--markdown pre {
+  padding: 16px;
+  overflow: auto;
+  font-size: 85%;
+  line-height: 1.45;
+  background-color: #f7f7f7;
+  border-radius: 3px;
+}
+
+.Content--markdown .highlight pre {
+  margin-bottom: 0;
+  word-break: normal;
+}
+
+.Content--markdown pre {
+  word-wrap: normal;
+}
+
+.Content--markdown pre code {
+  display: inline;
+  max-width: initial;
+  padding: 0;
+  margin: 0;
+  overflow: initial;
+  line-height: inherit;
+  word-wrap: normal;
+  background-color: transparent;
+  border: 0;
+}
+
+.Content--markdown pre code:before,
+.Content--markdown pre code:after {
+  content: normal;
+}
+
+.Content--markdown kbd {
+  display: inline-block;
+  padding: 3px 5px;
+  font-size: 11px;
+  line-height: 10px;
+  color: #555;
+  vertical-align: middle;
+  background-color: #fcfcfc;
+  border: solid 1px #ccc;
+  border-bottom-color: #bbb;
+  border-radius: 3px;
+  box-shadow: inset 0 -1px 0 #bbb;
+}
+
+.Content--markdown .pl-c {
+  color: #969896;
+}
+
+.Content--markdown .pl-c1,
+.Content--markdown .pl-s .pl-v {
+  color: #0086b3;
+}
+
+.Content--markdown .pl-e,
+.Content--markdown .pl-en {
+  color: #795da3;
+}
+
+.Content--markdown .pl-s .pl-s1,
+.Content--markdown .pl-smi {
+  color: #333;
+}
+
+.Content--markdown .pl-ent {
+  color: #63a35c;
+}
+
+.Content--markdown .pl-k {
+  color: #a71d5d;
+}
+
+.Content--markdown .pl-pds,
+.Content--markdown .pl-s,
+.Content--markdown .pl-s .pl-pse .pl-s1,
+.Content--markdown .pl-sr,
+.Content--markdown .pl-sr .pl-cce,
+.Content--markdown .pl-sr .pl-sra,
+.Content--markdown .pl-sr .pl-sre {
+  color: #183691;
+}
+
+.Content--markdown .pl-v {
+  color: #ed6a43;
+}
+
+.Content--markdown .pl-id {
+  color: #b52a1d;
+}
+
+.Content--markdown .pl-ii {
+  background-color: #b52a1d;
+  color: #f8f8f8;
+}
+
+.Content--markdown .pl-sr .pl-cce {
+  color: #63a35c;
+  font-weight: bold;
+}
+
+.Content--markdown .pl-ml {
+  color: #693a17;
+}
+
+.Content--markdown .pl-mh,
+.Content--markdown .pl-mh .pl-en,
+.Content--markdown .pl-ms {
+  color: #1d3e81;
+  font-weight: bold;
+}
+
+.Content--markdown .pl-mq {
+  color: #008080;
+}
+
+.Content--markdown .pl-mi {
+  color: #333;
+  font-style: italic;
+}
+
+.Content--markdown .pl-mb {
+  color: #333;
+  font-weight: bold;
+}
+
+.Content--markdown .pl-md {
+  background-color: #ffecec;
+  color: #bd2c00;
+}
+
+.Content--markdown .pl-mi1 {
+  background-color: #eaffea;
+  color: #55a532;
+}
+
+.Content--markdown .pl-mdr {
+  color: #795da3;
+  font-weight: bold;
+}
+
+.Content--markdown .pl-mo {
+  color: #1d3e81;
+}
+
+.Content--markdown kbd {
+  display: inline-block;
+  padding: 3px 5px;
+  font: 11px Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  line-height: 10px;
+  color: #555;
+  vertical-align: middle;
+  background-color: #fcfcfc;
+  border: solid 1px #ccc;
+  border-bottom-color: #bbb;
+  border-radius: 3px;
+  box-shadow: inset 0 -1px 0 #bbb;
+}
+
+.Content--markdown .task-list-item {
+  list-style-type: none;
+}
+
+.Content--markdown .task-list-item+.task-list-item {
+  margin-top: 3px;
+}
+
+.Content--markdown .task-list-item input {
+  margin: 0 0.35em 0.25em -1.6em;
+  vertical-align: middle;
+}
+
+.Content--markdown :checked+.radio-label {
+  z-index: 1;
+  position: relative;
+  border-color: #4078c0;
+}
